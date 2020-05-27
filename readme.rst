@@ -1,5 +1,5 @@
 ###################
-What is CodeIgniter
+草野球チーム管理サイト
 ###################
 
 CodeIgniter is an Application Development Framework - a toolkit - for people
