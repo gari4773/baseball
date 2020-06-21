@@ -35,7 +35,7 @@ git clone https://github.com/tech-is/baseball.git
 ## 初期設定
 ```config.ini.sample```をコピーして```config.ini```に名前変更して中身を編集してください。
 
-* **メールの設定**  
+* **メールの設定 [mail]**  
 
 | パラメータ名 | 指定値 | 例 |
 | :---: | :---: | :---: |
@@ -45,13 +45,13 @@ git clone https://github.com/tech-is/baseball.git
 | Secure | SMTPSecure 暗号化を有効にするかどうか | TLS/STARTTLS推奨 |
 | Port | ポート番号 | TLS/STARTTLSポート:587 |
 
-* **有効期限の設定**  
+* **有効期限の設定 [expire]**  
  
  | パラメータ名 | 指定値 | 例 |
  | :---: | :---: | :---: |
 | day | 本登録リンクのアクセス期限 | 15 (minに対する値を指定) |  
 
-* **お問い合わせ先の設定**  
+* **お問い合わせ先の設定 [contact]**  
 
 | パラメータ名 | 設定先 | 例 |  
 | :---: | :---: | :---: |  
@@ -61,7 +61,7 @@ git clone https://github.com/tech-is/baseball.git
 | Secure | SMTPSecure 暗号化を有効にするかどうか | TLS/STARTTLS推奨 |  
 | Port | ポート番号 | TLS/STARTTLSポート:587 |  
 
-* **データベースの設定**  
+* **データベースの設定 [database]**  
 
 | パラメータ名 | 設定先 | 例 |  
 | :---: | :---: | :---: |  
