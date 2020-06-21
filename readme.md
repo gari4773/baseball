@@ -85,13 +85,13 @@ git clone https://github.com/tech-is/baseball.git
 database.sqlに記述してあるSQL分をMysqlを立ち上げて実行してください
 ターミナルで行う場合
 ```
-mysql -u root -p パスワード
-MariaDB[(none)] ここにSQLを張り付けて実行
+mysql -u root -pパスワード
+MariaDB[(none)]ここにSQLを張り付けて実行
 ```
 もしくは
 ```
 ①cd sqlファイルの場所まで移動
-②mysql -u root -p パスワード
+②mysql -u root -pパスワード
 ③create database db名(新規データベース作成)
 ④\q(ログアウト)
 ⑤mysql -u root -p db名 < baseball.sql(インポート)
