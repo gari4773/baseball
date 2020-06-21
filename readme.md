@@ -65,11 +65,11 @@ git clone https://github.com/tech-is/baseball.git
 
 | パラメータ名 | 設定先 | 例 |  
 | :---: | :---: | :---: |  
-| Hostname | ホスト名を設定 | localhost |  
-| Username | メールアドレスのパスワード | ******* |  
-| Password | メールアドレス |  *****@gmail.com |  
-| Database | SMTPSecure 暗号化を有効にするかどうか | TLS/STARTTLS推奨 |  
-| Dbdriver | ポート番号 | TLS/STARTTLSポート:587 |  
+| Hostname | ホスト名を設定 | 各ユーザーのホスト名(localhostなど) |  
+| Username | データベースに接続するために使用するユーザ名 | (rootなど) |  
+| Password | データベースに接続するために使用するパスワード |  ****** |  
+| Database | 接続したいデータベース名 | ****** |  
+| Dbdriver | データベースの種類 | mysql,postgres,odbcなど。小文字で指定しなければなりません。 |  
 
 ## フォルダ構成
 ・application/  
