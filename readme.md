@@ -69,7 +69,7 @@ git clone https://github.com/tech-is/baseball.git
 | Username | データベースに接続するために使用するユーザ名 | (rootなど) |  
 | Password | データベースに接続するために使用するパスワード |  ****** |  
 | Database | 接続したいデータベース名 | ****** |  
-| Dbdriver | データベースの種類 | mysql,postgres,odbcなど。小文字で指定しなければなりません。 |  
+| Dbdriver | データベースの種類 | mysql,postgres,odbcなど。<br>※小文字で指定しなければなりません。 |  
 
 ## フォルダ構成
 ・application/  
